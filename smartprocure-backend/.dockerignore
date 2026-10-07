@@ -1,0 +1,12 @@
+# Don't copy these to Docker (speeds up build)
+target/
+.git/
+.idea/
+.vscode/
+.settings/
+.classpath
+.project
+.factorypath
+frontend/
+*.md
+docker-compose.yml
